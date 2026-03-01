@@ -41,5 +41,5 @@ export const runDebate = async (topic, total_rounds) => {
   }
 
   const judgeReply = await getReply(topic, transcript, JUDGE_PROMPT);
-  console.log("PRO:\n", judgeReply);
+  console.log("\nJUDGE:\n", judgeReply);
 };
